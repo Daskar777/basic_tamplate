@@ -1,0 +1,4 @@
+For new project with file package.json type in node :
+npm init
+npm install
+gulp         // for starting script

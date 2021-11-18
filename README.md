@@ -1,6 +1,8 @@
-# basic_tamplate
-new basic tamplate for gulp 4
+# basic_tamplate for Gulp 4
+Some basic template for web dev(junior)
 sass to min.css
-babel for JS
+babel for JS(compile new js code to old ES specifications)
 normilize.css
-reload
+reload on save
+git clone https://github.com/Daskar777/basic_tamplate 
+
