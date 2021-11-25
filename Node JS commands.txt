@@ -2,3 +2,18 @@ For new project with file package.json type in node :
 npm init
 npm install
 gulp         // for starting script
+
+
+
+
+создаем файл some.js с кодом 
+var exec = require('child_process').exec;
+exec('start C:\\Users\\Path\\to\\File', function (err, stdout, stderr) {
+    if (err) {
+        throw err;
+    }
+})
+для запуска любого приложения либо файла
+
+
+пишем в ноду node some.js
