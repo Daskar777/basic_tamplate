@@ -15,7 +15,7 @@ const concat = require('gulp-concat');
 // настройка роботи browsersync
 function browsersync() {
 	browserSync.init({ // Инициализация Browsersync
-		server: { baseDir: 'app/' }, // Вказуємо папку сервера
+		server: { baseDir: './app' }, // Вказуємо папку сервера
 		notify: false, // відключаємо повідомлення
 		online: true // режим роботи true або false
 	})
@@ -25,7 +25,7 @@ function browsersync() {
 function startwatch() { 
 	watch('app/**/*.sass', styles); // слідкуємо за sass файлами, при зміні запускаємо функцію styles()
 	watch('app/js/*.js', babelGo); // слідкуємо за js файлами, при зміні запуск function babelGo()
-	watch('app/**/*.html').on('change', browserSync.reload); // слідкуєм за всіма html файлами , перезавантажуэмо сторінку після зміни.	
+	watch('app/**/*.php').on('change', browserSync.reload); // слідкуєм за всіма php файлами , перезавантажуэмо сторінку після зміни.	
 }
 
 //компіляція JavaScript коду  до старіших стандартів EcmaScript

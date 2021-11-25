@@ -12,8 +12,7 @@
 <body>
 <div class="container">
     <div>
-        <h1>Basic 1.2</h1>
-        <p>sass to min.css</p>
+        
         <p>js with babel to old versions</p>
         <p>reload on save</p>
         <p>Normilize.css</p>

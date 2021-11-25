@@ -9,6 +9,7 @@
     "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
+    "gulp-connect-php": "^1.0.3",
     "gulp-sass": "^5.0.0",
     "sass": "^1.43.4",
     "underscore": "^1.13.1"
